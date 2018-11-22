@@ -52,9 +52,9 @@
                 <option value="">Seleccione un pais</option>
                 <option *ngFor="let pais of paises" [value]="pais.codigo">{{pais.nombre}}</option>
             </select>
-            <div class="invalid-feedback" *ngIf="pais.errors?.required">
+            <!-- <div class="invalid-feedback" *ngIf="pais.errors?.required">
                 Debe seleccionar un pais
-            </div>
+            </div> -->
         </div>
     </div>
 
